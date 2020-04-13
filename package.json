@@ -1,0 +1,36 @@
+{
+  "name": "codeandmagick",
+  "version": "1.0.0",
+  "description": "code and magick",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorKuznetsov93/codeAndMagick.git"
+  },
+  "author": "Igor Kuznetsov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorKuznetsov93/codeAndMagick/issues"
+  },
+  "homepage": "https://github.com/IgorKuznetsov93/codeAndMagick#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongodb": "^3.5.5",
+    "node": "^13.12.0",
+    "nodemon": "^2.0.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0"
+  }
+}
