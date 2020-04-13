@@ -34,7 +34,7 @@ GET /api/wizards
 |500   | Невозможно обработать запрос из-за серверной ошибки (см. логи сервера)|
 
 ```markdown
-GET api/wizards/:username
+GET api/wizards/:name
 ```
 
 Возвращает пользователя с полем username равному :username.
@@ -71,7 +71,7 @@ POST api/wizards
 
 
 ```markdown
-GET api/wizards/:username/avatar
+GET api/wizards/:name/avatar
 ```
 
 Возвращает avatar мага с username === :username
