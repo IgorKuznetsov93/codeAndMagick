@@ -1,0 +1,4 @@
+# Ignore node modules
+/node_modules
+# Ignore IDE and build tools
+.idea
