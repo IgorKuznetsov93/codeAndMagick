@@ -18,7 +18,7 @@ class ImageStore {
 
     async get(filename) {
         const bucket = await this.getBucket();
-        const results = await (bucket).find({ filename }).toArray();
+        const results = await bucket.find({ filename }).toArray();
         const entity = results[0];
         if (!entity) {
             return undefined;

@@ -1,2 +1,14 @@
 {"message":"Server running at http://localhost:3000/","level":"info","service":"user-service"}
 {"message":"Server running at http://localhost:3000/","level":"info","service":"user-service"}
+{"message":"Server running at http://localhost:3000/","level":"info","service":"user-service"}
+{"service":"user-service","coatColor":"rgb(56, 159, 117)","eyeColor":"green","fireballColor":"#ee4830","level":"info","message":"Received data from user: "}
+{"service":"user-service","coatColor":"rgb(56, 159, 117)","eyeColor":"green","fireballColor":"#ee4830","level":"info","message":"Received data from user: "}
+{"message":"Server running at http://localhost:3000/","level":"info","service":"user-service"}
+{"service":"user-service","coatColor":"rgb(56, 159, 117)","eyeColor":"green","fireballColor":"#ee4830","level":"info","message":"Received data from user: "}
+{"message":"Server running at http://localhost:3000/","level":"info","service":"user-service"}
+{"message":"Server running at http://localhost:3000/","level":"info","service":"user-service"}
+{"service":"user-service","coatColor":"rgb(56, 159, 117)","eyeColor":"green","fireballColor":"#ee4830","level":"info","message":"Received data from user: "}
+{"message":"Server running at http://localhost:3000/","level":"info","service":"user-service"}
+{"service":"user-service","coatColor":"rgb(101, 137, 164)","eyeColor":"black","fireballColor":"#ee4830","level":"info","message":"Received data from user: "}
+{"message":"Server running at http://localhost:3000/","level":"info","service":"user-service"}
+{"service":"user-service","userName":"Синий Пендальф","coatColor":"rgb(101, 137, 164)","eyeColor":"black","fireballColor":"#ee4830","level":"info","message":"Received data from user: "}
