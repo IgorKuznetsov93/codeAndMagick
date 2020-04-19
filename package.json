@@ -4,7 +4,10 @@
   "description": "code and magick",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test:lint": "eslint .",
+    "test:mocha": "mocha --recursive",
+    "test": "npm run test:lint && npm run test:mocha"
   },
   "repository": {
     "type": "git",
@@ -32,6 +35,8 @@
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-node": "^11.0.0"
+    "eslint-plugin-node": "^11.0.0",
+    "mocha": "^5.0.0",
+    "supertest": "^3.0.0"
   }
 }

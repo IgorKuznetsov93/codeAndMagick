@@ -29,10 +29,10 @@ wizardsRouter.use(cors());
 
 wizardsRouter.get('/', asyncHandler(async (req, res) => {
     const { skip, limit } = req.query;
-    res.send(toPage(await wizardsRouter.wizardsStore.getAllWizards(), skip, limit));
+    res.send(await toPage(await wizardsRouter.wizardsStore.getAllWizards(), skip, limit));
 }));
 
-wizardsRouter.get(':name', asyncHandler(async (req, res) => {
+wizardsRouter.get('/:name', asyncHandler(async (req, res) => {
     const wizardName = req.params.name;
     const wizard = await wizardsRouter.wizardsStore.getWizard(wizardName);
     if (!wizard) {
@@ -48,10 +48,10 @@ wizardsRouter.post('', upload.single('avatar'), asyncHandler(async (req, res) =>
     let avatar = req.file;
 
     logger.info('Received data from user: ', {
-        userName, coatColor, eyeColor, fireballColor, avatar,
+        userName, coatColor, eyeColor, fireballColor,
     });
 
-    if (!userName || userName.length < 1) {
+    if (!userName || userName.length <= 1) {
         throw new ValidationError('userName must be defined and greater than 1 symbols');
     }
     if (!coatColor || Colors.COAT.indexOf(coatColor) === -1) {
